@@ -7,7 +7,7 @@ header-img: "img/blue.jpg"
 
 
 <center>
-    <p><img src="img/tx.jpg" align="center"></p>
+    <p><img src="https://github.com/csj007/csj007.github.io/blob/master/img/tx.jpg" align="center"></p>
 </center>
 
 嗨欢迎来到我的博客。我是张浩鑫，一个即将走入职场的程序员，现在号称“信息黄埔”的北京邮电大学求学。程序员之路不好走，感谢我的老师和所有帮助我的人。
