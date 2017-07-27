@@ -2,7 +2,7 @@
 layout: page
 title: "Personal"
 description: "我的个人简介 "
-header-img: "img/green.blue"
+header-img: "img/blue.jpg"
 ---
 
 
