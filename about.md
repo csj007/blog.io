@@ -14,13 +14,13 @@ header-img: "img/blue.jpg"
 
 现在研习 **Linux** 。
 
-##坚信
+## 坚信
 
 - 勤能补拙
 - 路在脚下 
 - 一切技能皆可习得，编程更是如此
 
-###关注：
+### 关注：
 
 
 - [廖雪峰官方网站](https://www.liaoxuefeng.com/)
@@ -29,14 +29,14 @@ header-img: "img/blue.jpg"
 - [CSDN](http://www.csdn.net)
 
 
-###代表作：
+### 代表作：
 
 - 暂无。
 
 
-###我的朋友们
+### 我的朋友们
 
-###联系
+### 联系
 
 - [博客：穿山甲的小屋](csj007.github.io)
 
