@@ -58,15 +58,15 @@ description: 搭好博客后的第一篇文章。
 &emsp;&emsp;&emsp;&emsp;&emsp;数据：data            
 - 文件名：           
 &emsp;&emsp;&emsp;&emsp;1. 严格区分字符大小写；          
-&emsp;&emsp;&emsp;&emsp;2. 可使用除/外的任意字符，但不推荐使用特殊字符；          
-&emsp;&emsp;&emsp;&emsp;3. /:为根目录，/为路径分隔符；          
+&emsp;&emsp;&emsp;&emsp;2. 可使用除**/**外的任意字符，但不推荐使用特殊字符；          
+&emsp;&emsp;&emsp;&emsp;3. **/:**为根目录，**/**为路径分隔符；          
 &emsp;&emsp;&emsp;&emsp;4. 名字长度不能超过255个字符；                   
 &emsp;&emsp;&emsp;&emsp;5. 所有以&ensp;**.**&ensp;开头的文件均为隐藏文件。
 - 路径：            
 &emsp;&emsp;&emsp;绝对路径：从根目录起始的路径；            
 &emsp;&emsp;&emsp;相对路径：从当前位置起始的路径；            
 &emsp;&emsp;&emsp;当前目录：current directory，也称作working directory(显示当前目录用命令pwd)；     
-&emsp;&emsp;&emsp;当前位置表示方式：./:路径或者直接输入路径               
+&emsp;&emsp;&emsp;当前位置表示方式：**./:**+路径或者直接输入路径               
 
 &emsp;&emsp;&emsp;**注意：&ensp;..&ensp;表示当前目录的上一级目录**        
 
