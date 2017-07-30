@@ -45,12 +45,11 @@ description: 搭好博客后的第一篇文章。
 - 运行命令：         
 &emsp;&emsp;&emsp;&emsp;命令格式：COMMAND [OPTIONS...] [AGRGUMENTS...]            
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;｜                        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;选项&emsp;&emsp;&emsp;&emsp;&ensp;参数   
-
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;选项：用于启用或关闭命令的某个或某些功能。            
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&ensp;－短选项：－c，例如：－l，－h。多个短选项可合并使用，例如－lh。如果不合并中间必须使用空白隔开。        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&ensp;－长选项：－－word，例如：－－long，－－human－readable。一般不合并。        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;参数：命令的作用对象。向命令提供数据。多个参数间也须用空白隔开。
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;选项&emsp;&emsp;&emsp;&emsp;&ensp;参数          
+&emsp;&emsp;&emsp;&emsp;选项：用于启用或关闭命令的某个或某些功能。            
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;－短选项：－c，例如：－l，－h。多个短选项可合并使用，例如－lh。不合并则中间加空格。        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;－长选项：－－word，例如：－－long，－－human－readable。一般不合并。        
+&emsp;&emsp;&emsp;&emsp;参数：命令的作用对象。向命令提供数据。多个参数间也须用空白隔开。
 
 ### 四、文件系统：
 - 例如  /etc/sysconfig/network-scripts/ifcfg-eth0
@@ -63,11 +62,11 @@ description: 搭好博客后的第一篇文章。
 &emsp;&emsp;&emsp;&emsp;3. /:为根目录，／为路径分隔符；          
 &emsp;&emsp;&emsp;&emsp;4. 名字长度不能超过255个字符；                   
 &emsp;&emsp;&emsp;&emsp;5. 所有以&ensp;**.**&ensp;开头的文件均为隐藏文件。
-- 路径：
-&emsp;&emsp;&emsp;绝对路径：从根目录起始的路径；
-&emsp;&emsp;&emsp;相对路径：从当前位置起始的路径；
-&emsp;&emsp;&emsp;当前目录：current directory，也称作working directory(显示当前目录用命令pwd：printing working directory)；
-&emsp;&emsp;&emsp;当前位置表示方式：./:路径或者直接输入路径        
+- 路径：            
+&emsp;&emsp;&emsp;绝对路径：从根目录起始的路径；            
+&emsp;&emsp;&emsp;相对路径：从当前位置起始的路径；            
+&emsp;&emsp;&emsp;当前目录：current directory，也称作working directory(显示当前目录用命令pwd：printing working directory)；             
+&emsp;&emsp;&emsp;当前位置表示方式：./:路径或者直接输入路径               
 
 &emsp;&emsp;&emsp;**注意：&ensp;..&ensp;表示当前目录的上一级目录**        
 
