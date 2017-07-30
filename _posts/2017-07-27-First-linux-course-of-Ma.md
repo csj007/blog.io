@@ -17,30 +17,30 @@ description: 搭好博客后的第一篇文章。
 - 模拟终端：**纯粹软件实现**，不会附加在物理终端上，一般附加在图形终端上。如图形界面下打开的命令行接口。以及基于ssh协议或telnet协议等远程打开的界面。            
 **注意：一旦开机程序启动完成，就默认启动虚拟终端；只有在刚开机还未完成的时候，物理终端才起作用。**
 - 查看当前的终端设备：tty命令。              
-其中：物理终端设备即为console；            
+其中:物理终端设备即为console；            
 &emsp;&emsp;&emsp;虚拟终端设备文件路径为：/dev/tty#；         
 &emsp;&emsp;&emsp;模拟终端设备文件路径为：/dev/pts/# [0,oo]。        
 
 ### 二、交互式程序：终端本身没法交互，需要交互式程序。启动终端后，在终端设备附加的一个交互式应用程序。
 - GUI:             
-X protcol(x协议）, window manager(窗口管理器), desktop(桌面系统)。               
-Desktop:                
-&emsp;&emsp;&emsp;GNOME (C, gtk)             
-&emsp;&emsp;&emsp;KDE   (C++, qt)              
-&emsp;&emsp;&emsp;XFCE  (轻量级桌面)             
-- CLI: 
-shell程序：sh (bourn),csh,tcsh,ksh (korn),bash (bourn again shell),zsh              
-显示当前使用的shell：＃ ehco $SHELL                
-显示当前系统使用的所有shell：# cat /etc/shells                    
-命令提示符:[root@localhost ~]#                  
+&emsp;&emsp;&emsp;X protcol(x协议）, window manager(窗口管理器), desktop(桌面系统)。                          
+&emsp;&emsp;&emsp;Desktop:                     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;GNOME (C, gtk)             
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;KDE   (C++, qt)              
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;XFCE  (轻量级桌面)             
+- CLI:             
+&emsp;&emsp;&emsp;shell程序：sh (bourn),csh,tcsh,ksh (korn),bash (bourn again shell),zsh              
+&emsp;&emsp;&emsp;显示当前使用的shell：＃ ehco $SHELL                
+&emsp;&emsp;&emsp;显示当前系统使用的所有shell：# cat /etc/shells                    
+&emsp;&emsp;&emsp;命令提示符:[root@localhost ~]#                  
 
 ### 三、命令：
 - 本质：提请shell程序找到键入命令所对应的可执行程序或代码，并由其分析后提交给内核分配资源将其运行起来；表现为一个或者多个进程。
 - 分类：               
-内建命令：由shell程序自带的通过某命令形式提供；(COMMAND is a shell builtin)               
-外部命令：在当前某文件系统路径下有对应的可执行程序文件。(COMMAND is hashed)                
-区别内部或外部命令：# type COMMAND                   
-- 运行命令：
+&emsp;&emsp;&emsp;内建命令：由shell程序自带的通过某命令形式提供；(COMMAND is a shell builtin)               
+&emsp;&emsp;&emsp;外部命令：在当前某文件系统路径下有对应的可执行程序文件。(COMMAND is hashed)                
+- 区别内部或外部命令：# type COMMAND                   
+- 运行命令：         
 命令格式：COMMAND [OPTIONS...] [AGRGUMENTS...]
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;｜
 &emsp;&emsp;&emsp;选项
