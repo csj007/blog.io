@@ -14,14 +14,13 @@ description: 搭好博客后的第一篇文章。
 - 物理终端：直接接入本机的显示器和键盘设备：console
 - 虚拟终端：附加在物理终端之上的，以软件方式虚拟实现的终端，Ubuntu默认启动6个虚拟终端（control+alt+F1~F6)
 - 图形终端：图形界面的终端（control+alt+F7）
-- 模拟终端：**纯粹软件实现**，不会附加在物理终端上，一般附加在图形终端上。如图形界面下打开的命令行接口。以及基于ssh协议或telnet协议等远程打开的界面。
-
-&emsp;&emsp;&emsp;**注意：一旦开机程序启动完成，就默认启动虚拟终端；只有在刚开机还未完成的时候，物理终端才起作用。**
-
-- 查看当前的终端设备：tty命令。其中，物理终端设备即为console；虚拟终端设备文件路径为：/dev/tty#；模拟终端设备文件路径为：/dev/pts/# [0,oo]。
+- 模拟终端：**纯粹软件实现**，不会附加在物理终端上，一般附加在图形终端上。如图形界面下打开的命令行接口。以及基于ssh协议或telnet协议等远程打开的界面。</br>
+           **注意：一旦开机程序启动完成，就默认启动虚拟终端；只有在刚开机还未完成的时候，物理终端才起作用。**
+       </br>
+- 查看当前的终端设备：tty命令。其中，物理终端设备即为console；虚拟终端设备文件路径为：/dev/tty#；模拟终端设备文件路径为：/dev/pts/# [0,oo]。</br>
 ### 二、交互式程序：终端本身没法交互，需要交互式程序。启动终端后，在终端设备附加的一个交互式应用程序。
 - GUI: 
-&emsp;&emsp;&emsp;X protcol(x协议）, window manager(窗口管理器), desktop(桌面系统)。
+&emsp;&emsp;&emsp;X protcol(x协议）, window manager(窗口管理器), desktop(桌面系统)。</br> 
 &emsp;&emsp;&emsp;Desktop:
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;GNOME (C, gtk)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;KDE   (C++, qt)
@@ -73,7 +72,7 @@ description: 搭好博客后的第一篇文章。
 &emsp;&emsp;&emsp;当前位置表示方式：./:路径或者直接输入路径
 &emsp;&emsp;&emsp;**注意：&ensp;..&ensp;表示当前目录的上一级目录**
 - LSB:Linux Standard Base 
-
-
+</br>
+</br>
 #### 本节命令总结：ls,cd,type,tty,echo,whereis,which,cat,pwd.
 
