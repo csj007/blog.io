@@ -17,7 +17,7 @@ description: 搭好博客后的第一篇文章。
 - 模拟终端：**纯粹软件实现**，不会附加在物理终端上，一般附加在图形终端上。如图形界面下打开的命令行接口。以及基于ssh协议或telnet协议等远程打开的界面。            
 **注意：一旦开机程序启动完成，就默认启动虚拟终端；只有在刚开机还未完成的时候，物理终端才起作用。**
 - 查看当前的终端设备：tty命令。              
-其中:物理终端设备即为console；            
+其中:            物理终端设备即为console；            
 &emsp;&emsp;&emsp;虚拟终端设备文件路径为：/dev/tty#；         
 &emsp;&emsp;&emsp;模拟终端设备文件路径为：/dev/pts/# [0,oo]。        
 
@@ -41,9 +41,9 @@ description: 搭好博客后的第一篇文章。
 &emsp;&emsp;&emsp;外部命令：在当前某文件系统路径下有对应的可执行程序文件。(COMMAND is hashed)                
 - 区别内部或外部命令：# type COMMAND                   
 - 运行命令：         
-命令格式：COMMAND [OPTIONS...] [AGRGUMENTS...]
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;｜
-&emsp;&emsp;&emsp;选项
+&emsp;&emsp;&emsp;&emsp;命令格式：COMMAND [OPTIONS...] [AGRGUMENTS...]            
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;｜                        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;选项
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;参数
 &emsp;&emsp;&emsp;选项：用于启用或关闭命令的某个或某些功能。
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;－短选项：－c，例如：－l，－h。多个短选项可合并使用，例如－lh。如果不合并，中间必须使用空白隔开。
