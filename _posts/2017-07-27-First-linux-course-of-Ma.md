@@ -15,15 +15,10 @@ description: 搭好博客后的第一篇文章。
 - 虚拟终端：附加在物理终端之上的，以软件方式虚拟实现的终端，Ubuntu默认启动6个虚拟终端（control+alt+F1~F6)。
 - 图形终端：图形界面的终端（control+alt+F7）
 - 模拟终端：**纯粹软件实现**，不会附加在物理终端上，一般附加在图形终端上。如图形界面下打开的命令行接口。以及基于ssh协议或telnet协议等远程打开的界面。
-
 &emsp;&emsp;&emsp;**注意：一旦开机程序启动完成，就默认启动虚拟终端；只有在刚开机还未完成的时候，物理终端才起作用。**
-
 - 查看当前的终端设备：tty命令。其中：
-
 物理终端设备即为console；
-
 虚拟终端设备文件路径为：/dev/tty#；
-
 模拟终端设备文件路径为：/dev/pts/# [0,oo]。
 
 ### 二、交互式程序：终端本身没法交互，需要交互式程序。启动终端后，在终端设备附加的一个交互式应用程序。
@@ -48,7 +43,6 @@ shell程序：sh (bourn),csh,tcsh,ksh (korn),bash (bourn again shell),zsh
 - 运行命令：
 命令格式：COMMAND [OPTIONS...] [AGRGUMENTS...]
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;｜
-
 &emsp;&emsp;&emsp;选项
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;参数
 &emsp;&emsp;&emsp;选项：用于启用或关闭命令的某个或某些功能。
