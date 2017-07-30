@@ -31,7 +31,7 @@ XFCE  (轻量级桌面)
 - CLI: 
 shell程序：sh (bourn),csh,tcsh,ksh (korn),bash (bourn again shell),zsh
 显示当前使用的shell：＃ ehco $SHELL
-显示当前系统使用的所有shell：# cat /etc/shells
+显示当前系统使用的所有shell：# cat /etc/shells       
 命令提示符:[root@localhost ~]#
 
 ### 三、命令：
