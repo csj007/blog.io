@@ -58,8 +58,8 @@ description: 搭好博客后的第一篇文章。
 &emsp;&emsp;&emsp;&emsp;&emsp;数据：data            
 - 文件名：           
 &emsp;&emsp;&emsp;&emsp;1. 严格区分字符大小写；          
-&emsp;&emsp;&emsp;&emsp;2. 可使用除**/**外的任意字符，但不推荐使用特殊字符；          
-&emsp;&emsp;&emsp;&emsp;3. **/:**为根目录，**/**为路径分隔符；          
+&emsp;&emsp;&emsp;&emsp;2. 可使用除&ensp;**/**&ensp;外的任意字符，但不推荐使用特殊字符；          
+&emsp;&emsp;&emsp;&emsp;3. **/:**&ensp;为根目录，**/**&ensp;为路径分隔符；          
 &emsp;&emsp;&emsp;&emsp;4. 名字长度不能超过255个字符；                   
 &emsp;&emsp;&emsp;&emsp;5. 所有以&ensp;**.**&ensp;开头的文件均为隐藏文件。
 - 路径：            
