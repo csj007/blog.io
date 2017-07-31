@@ -9,44 +9,45 @@ description: 第二堂课Linux命令帮助获取详解。
 ---
 
 <center>
-<font size="3" >Linux命令帮助获取详解</font>
+<font size="7" >Linux命令帮助获取详解</font>
 </center>
 ### 一、Linux命令帮助的获取。
 - 内部命令：help+COMMAND
 - 外部命令:
 1. COMMAND&emsp;－－help        
-&emsp;&emsp;&emsp;COMMAND&emsp;－h         
+&emsp;&ensp;COMMAND&emsp;－h         
 2. 使用手册（manual）         
-&emsp;&emsp;&emsp;man&emsp;COMMAND        
+&emsp;&emsp;man&emsp;COMMAND        
 3. 信息页(支持超链接)         
-&emsp;&emsp;&emsp;info&emsp;COMMAND        
+&emsp;&emsp;info&emsp;COMMAND        
 4. 程序自身的帮助文档           
-&emsp;&emsp;&emsp;README，INSTALL，ChangeLog              
+&emsp;&emsp;README，INSTALL，ChangeLog              
 5. 程序官方文档           
-&emsp;&emsp;&emsp;官方站点：Documentation         
+&emsp;&emsp;官方站点：Documentation         
 6. 使用发行版的官方文档        
-&emsp;&emsp;&emsp;例如：Redhat官方文档        
+&emsp;&emsp;例如：Redhat官方文档        
 7. Google          
 
 **注意：外部命令都有一个可执行程序位于文件系统某目录下。shell程序可搜寻该文件路径定义在PATH环境变量中。**   
-- 内部命令帮助：                   
+- 内部命令帮助：       
+
 1. hash命令：          
-&emsp;&emsp;&emsp;shell搜寻到的外部命令的路径结果会缓存至kv(key-value)存储中。     
-
+&emsp;&emsp;shell搜寻到的外部命令的路径结果会缓存至kv(key-value)存储中。     
 2. history命令：         
-&emsp;&emsp;&emsp;作用一、管理命令历史：          
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;登录shell时读取命令历史文件中的记录：~/.bash_history               
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;登录后新执行的命令只记录在缓存中，在用户退出时“追加”至历史文件中。
+&emsp;&emsp;作用一、管理命令历史：          
+&emsp;&emsp;&emsp;&emsp;&emsp;登录shell时读取命令历史文件中的记录：~/.bash_history               
+&emsp;&emsp;&emsp;&emsp;&emsp;登录后新执行的命令只记录在缓存中，在用户退出时“追加”至历史文件中。
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;history:        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-a：追加本次会话新执行的命令历史列表至历史文件中；        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-d：删除历史中指定偏移位置的命令；     
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-c：清空命令历史；        
-&emsp;&emsp;&emsp;作用二、进行快捷操作：     
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;!# ：调用历史中的第＃条命令；          
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;!string：调用历史中最近一个以string开头的命令；        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;!!：重复运行上一条命令。        
+&emsp;&emsp;&emsp;&emsp;&emsp;history:        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-a：追加本次会话新执行的命令历史列表至历史文件中；        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-d：删除历史中指定偏移位置的命令；     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-c：清空命令历史；        
+&emsp;&emsp;作用二、进行快捷操作：     
+&emsp;&emsp;&emsp;&emsp;&emsp;!# ：调用历史中的第＃条命令；          
+&emsp;&emsp;&emsp;&emsp;&emsp;!string：调用历史中最近一个以string开头的命令；        
+&emsp;&emsp;&emsp;&emsp;&emsp;!!：重复运行上一条命令。        
 - 外部命令帮助：           
+
 1. COMMAND －－help        
 
 &emsp;&emsp;&emsp;2. man&emsp;COMMAND       
@@ -94,7 +95,7 @@ description: 第二堂课Linux命令帮助获取详解。
 &emsp;&emsp;&emsp;3. info&emsp;COMMAND            
 
 &emsp;&emsp;&emsp;4. 程序自身的帮助文档           
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;一般在/usr/share/doc/COMMAND-VERSION       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;一般在/usr/share/doc/COMMAND-VERSION       
 
 &emsp;&emsp;&emsp;5. 程序官方文档       
 
