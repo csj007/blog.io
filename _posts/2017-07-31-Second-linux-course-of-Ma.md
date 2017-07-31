@@ -9,27 +9,27 @@ description: 第二堂课Linux命令帮助获取详解。
 ---
 
 <center>
-# Linux命令帮助获取详解
+<font size="3" >Linux命令帮助获取详解</font>
 </center>
 ### 一、Linux命令帮助的获取。
 - 内部命令：help+COMMAND
 - 外部命令:
-1.COMMAND&emsp;－－help        
-&emsp;&ensp;COMMAND&emsp;－h         
+1. COMMAND&emsp;－－help        
+&emsp;&emsp;&emsp;COMMAND&emsp;－h         
 2. 使用手册（manual）         
-&emsp;&ensp;man&emsp;COMMAND        
+&emsp;&emsp;&emsp;man&emsp;COMMAND        
 3. 信息页(支持超链接)         
-&emsp;&ensp;info&emsp;COMMAND        
+&emsp;&emsp;&emsp;info&emsp;COMMAND        
 4. 程序自身的帮助文档           
-&emsp;&ensp;README，INSTALL，ChangeLog              
+&emsp;&emsp;&emsp;README，INSTALL，ChangeLog              
 5. 程序官方文档           
-&emsp;&ensp;官方站点：Documentation         
+&emsp;&emsp;&emsp;官方站点：Documentation         
 6. 使用发行版的官方文档        
-&emsp;&ensp;例如：Redhat官方文档        
-7. Google                          
+&emsp;&emsp;&emsp;例如：Redhat官方文档        
+7. Google          
+
 **注意：外部命令都有一个可执行程序位于文件系统某目录下。shell程序可搜寻该文件路径定义在PATH环境变量中。**   
-- 内部命令帮助：             
-&emsp;&emsp;&emsp;help&emsp;COMMAND        
+- 内部命令帮助：                   
 1. hash命令：          
 &emsp;&emsp;&emsp;shell搜寻到的外部命令的路径结果会缓存至kv(key-value)存储中。     
 
@@ -47,7 +47,7 @@ description: 第二堂课Linux命令帮助获取详解。
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;!string：调用历史中最近一个以string开头的命令；        
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;!!：重复运行上一条命令。        
 - 外部命令帮助：           
-&emsp;&emsp;&emsp;1. COMMAND －－help        
+1. COMMAND －－help        
 
 &emsp;&emsp;&emsp;2. man&emsp;COMMAND       
 &emsp;&emsp;&emsp;&emsp;手册页:/usr/share/man        
@@ -99,7 +99,9 @@ description: 第二堂课Linux命令帮助获取详解。
 &emsp;&emsp;&emsp;5. 程序官方文档       
 
 &emsp;&emsp;&emsp;6. 发行版的官方文档         
+
 &emsp;&emsp;&emsp;7. Google(可参考Google hacks)       
+
 &emsp;&emsp;&emsp;8. www.slideshare.net                 
 
 
