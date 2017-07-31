@@ -9,7 +9,7 @@ description: 第二堂课Linux命令帮助获取详解。
 ---
 
 <center>
-<font size="7" >Linux命令帮助获取详解</font>
+<font size="7" ><b>Linux命令帮助获取详解</b></font>
 </center>
 ### 一、Linux命令帮助的获取。
 - 内部命令：help+COMMAND
@@ -33,6 +33,7 @@ description: 第二堂课Linux命令帮助获取详解。
 
 1. hash命令：          
 &emsp;&emsp;shell搜寻到的外部命令的路径结果会缓存至kv(key-value)存储中。     
+
 2. history命令：         
 &emsp;&emsp;作用一、管理命令历史：          
 &emsp;&emsp;&emsp;&emsp;&emsp;登录shell时读取命令历史文件中的记录：~/.bash_history               
@@ -94,7 +95,7 @@ description: 第二堂课Linux命令帮助获取详解。
 
 &emsp;&emsp;&emsp;3. info&emsp;COMMAND            
 
-&emsp;&emsp;&emsp;4. 程序自身的帮助文档           
+&emsp;&emsp;&emsp;4. 程序自身的帮助文档：           
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;一般在/usr/share/doc/COMMAND-VERSION       
 
 &emsp;&emsp;&emsp;5. 程序官方文档       
