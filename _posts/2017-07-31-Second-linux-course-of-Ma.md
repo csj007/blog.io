@@ -51,47 +51,47 @@ description: 第二堂课Linux命令帮助获取详解。
 
 1. COMMAND －－help        
 
-&emsp;&emsp;&emsp;2. man&emsp;COMMAND       
-&emsp;&emsp;&emsp;&emsp;手册页:/usr/share/man        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man1～man8          
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man1：用户命令       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man2：系统调用      
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man3：c库调用       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man4：设备文件及特殊文件    
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man5：配置文件格式     
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man6：游戏        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man7：杂项       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man8：管理类的命令     
-&emsp;&emsp;&emsp;&emsp;**注意：有些关键字在不止一个章节中存在帮助手册；要查看需man # COMMAND**                        
-&emsp;&emsp;&emsp;&emsp;man命令自身的配置文件：/etc/manpath.config                
-&emsp;&emsp;&emsp;&emsp;帮助手册中的常用段落说明：         
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NAME：完整全名及简单用途；             
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SYNOPSIS：基本语法：         
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[&ensp;]：可选项            
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<&ensp;>：必选项            
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a|b：二选一            
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;...：可重复出现               
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DESCRIPTION：详细说明语法规则；         
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;OPTIONS：选项；      
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;EXAMPLES：示例；          
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SEE ALSO：参考；          
-&emsp;&emsp;&emsp;&emsp;man命令的操作方法：       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Space，^V，^F：向文件尾翻屏；      
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;b，^B：向文件首翻屏；       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;d，^D：向文件尾翻半屏；       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;u，^U：向文件首翻半屏；      
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;j，e：向文件尾翻一行；     
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;y，k：向文件首翻一行；         
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;/string：向下查询string字符串；        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;?string：向上查询string字符串；        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;n，N：查询字符串时用此来继续查询下一个该字符串；      
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;q：退出。         
+2. man&emsp;COMMAND       
+&emsp;&emsp;手册页:/usr/share/man        
+&emsp;&emsp;&emsp;&emsp;&emsp;man1～man8          
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man1：用户命令       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man2：系统调用      
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man3：c库调用       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man4：设备文件及特殊文件    
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man5：配置文件格式     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man6：游戏        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man7：杂项       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;man8：管理类的命令     
+&emsp;&emsp;**注意：有些关键字在不止一个章节中存在帮助手册；要查看需man # COMMAND**                        
+&emsp;&emsp;man命令自身的配置文件：/etc/manpath.config                
+&emsp;&emsp;帮助手册中的常用段落说明：         
+&emsp;&emsp;&emsp;&emsp;&emsp;NAME：完整全名及简单用途；             
+&emsp;&emsp;&emsp;&emsp;&emsp;SYNOPSIS：基本语法：         
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[&ensp;]：可选项            
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<&ensp;>：必选项            
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;a|b：二选一            
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;...：可重复出现               
+&emsp;&emsp;&emsp;&emsp;&emsp;DESCRIPTION：详细说明语法规则；         
+&emsp;&emsp;&emsp;&emsp;&emsp;OPTIONS：选项；      
+&emsp;&emsp;&emsp;&emsp;&emsp;EXAMPLES：示例；          
+&emsp;&emsp;&emsp;&emsp;&emsp;SEE ALSO：参考；          
+&emsp;&emsp;man命令的操作方法：       
+&emsp;&emsp;&emsp;&emsp;&emsp;Space，^V，^F：向文件尾翻屏；      
+&emsp;&emsp;&emsp;&emsp;&emsp;b，^B：向文件首翻屏；       
+&emsp;&emsp;&emsp;&emsp;&emsp;d，^D：向文件尾翻半屏；       
+&emsp;&emsp;&emsp;&emsp;&emsp;u，^U：向文件首翻半屏；      
+&emsp;&emsp;&emsp;&emsp;&emsp;j，e：向文件尾翻一行；     
+&emsp;&emsp;&emsp;&emsp;&emsp;y，k：向文件首翻一行；         
+&emsp;&emsp;&emsp;&emsp;&emsp;/string：向下查询string字符串；        
+&emsp;&emsp;&emsp;&emsp;&emsp;?string：向上查询string字符串；        
+&emsp;&emsp;&emsp;&emsp;&emsp;n，N：查询字符串时用此来继续查询下一个该字符串；      
+&emsp;&emsp;&emsp;&emsp;&emsp;q：退出。         
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;练习：date命令         
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;显示今天为周几？       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;设定当前系统时间？        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;显示今天日期，形如：17/07/30？    
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;显示当前时间，形如：17:01:56？   
+&emsp;&emsp;&emsp;&emsp;&emsp;练习：date命令         
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;显示今天为周几？       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;设定当前系统时间？        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;显示今天日期，形如：17/07/30？    
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;显示当前时间，形如：17:01:56？   
 
 &emsp;&emsp;&emsp;3. info&emsp;COMMAND            
 
