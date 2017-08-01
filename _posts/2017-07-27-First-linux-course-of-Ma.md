@@ -8,7 +8,9 @@ description: 搭好博客后的第一篇文章。
 
 ---
 
-# Linux系统基础使用入门
+<center>
+<font size="7" ><b>Linux系统基础使用入门</b></font>
+</center>
 
 ### 一、终端：用户与主机交互，必然用到的设备。
 - 物理终端：直接接入本机的显示器和键盘设备：console
