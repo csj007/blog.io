@@ -47,7 +47,7 @@ description: 第三堂课Linux基础命令。
 - stat /PATH/SOMEFILE：获取指定文件的元数据   
 
 ### 三、文件查看命令：              
-- cat：
+- cat：         
 &emsp;&emsp;&emsp;cat [OPTIONS]... [FILE]...      
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－E：显示行结束符$          
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－n：对显示出的每一行进行编号（从1开始）      
@@ -60,13 +60,13 @@ description: 第三堂课Linux基础命令。
 - echo：回显命令                     
 &emsp;&emsp;&emsp;－n：禁止自动添加换行符号；        
 &emsp;&emsp;&emsp;－e：允许使用转义符；         
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n：换行
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\t：制表符
-&emsp;&emsp;&emsp;echo "$VAR_NAME"：变量会替换，双引号表示弱引用；         
-&emsp;&emsp;&emsp;ehco "$VAR_NAME"：变量不会替换，单引号表示强引用。
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\n：换行             
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\t：制表符            
+&emsp;&emsp;&emsp;echo "$VAR_NAME"：变量会替换，双引号表示弱引用；                
+&emsp;&emsp;&emsp;ehco "$VAR_NAME"：变量不会替换，单引号表示强引用。        
 - which：显示命令对应的程序文件路径         
 &emsp;&emsp;&emsp;which [OPTIONS] COMMAND            
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－－skip－alias：跳过别名         
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－－skip－alias：跳过别名           
 - whatis：       
 &emsp;&emsp;&emsp;使用mkwhatis命令可将当前系统上所有的帮助手册及与之对应的关键字创建为一个数据库；     
 
