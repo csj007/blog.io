@@ -35,9 +35,8 @@ description: 第三堂课Linux基础命令。
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PWD：保存了当前目录路径       
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;OLDPWD：上一次所在的目录路径      
 - pwd：显示当前目录       
-- ls：       
-&emsp;&emsp;&emsp;显示指定路径下的文件列表；       
-&emsp;&emsp;&emsp;ls [OPTIONS]... [DIR]...       
+- ls：显示指定路径下的文件列表；       
+&emsp;&emsp;&emsp;ls [OPTIONS]... [DIR]...        
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－a，－－all：显示所有文件，包括隐藏文件；     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－l：使用长格式；        
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－h：单位换算；      
