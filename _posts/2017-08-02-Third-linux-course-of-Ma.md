@@ -69,13 +69,25 @@ description: 第三堂课Linux基础命令。
 - whatis：       
 &emsp;&emsp;&emsp;使用mkwhatis命令可将当前系统上所有的帮助手册及与之对应的关键字创建为一个数据库；     
 
-### 六、系统管理类命令：
-- 关机：          
-&emsp;&emsp;&emsp;halt，poweroff，shutdown，init 0          
-- 重启：          
-&emsp;&emsp;&emsp;reboot，shutdown，init 6        
-- 跟用户登录相关：         
-&emsp;&emsp;&emsp;who，whoami，w        
+### 六、系统管理类命令： 
+- 关机或重启：          
+&emsp;&emsp;&emsp;halt，poweroff               
+&emsp;&emsp;&emsp;reboot       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-f：强制，不调用shutdown     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-p：切断电源             
+- shutdown：         
+&emsp;&emsp;&emsp;shutdown [OPTION]...  TIME [MESSAGE]        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-r：重启     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-h：切断电源      
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-c：cancel     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;TIME：       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;now：立刻       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;＋m：从命令提交开始m分钟之后     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;hh:mm：指明具体时间(24小时制)    
+- 用户登录信息查看命令：      
+&emsp;&emsp;&emsp;whoami：显示当前登录的有效用户            
+&emsp;&emsp;&emsp;who：系统当前所有的登录会话          
+&emsp;&emsp;&emsp;w：显示系统当前所有的登录会话及所做的操作   
 
 
-#### 本节命令总结：date，hwclock，cd，pwd，ls，stat，cat，tac，less，more，file，echo，which，whatis，halt，poweroff，shutdown，init，reboot，who，whoami，w
+#### 本节命令总结：date，hwclock，cd，pwd，ls，stat，cat，tac，less，more，file，echo，which，whatis，halt，poweroff，shutdown，reboot，who，whoami，w
