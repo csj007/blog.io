@@ -12,7 +12,7 @@ description: 第四堂课Linux文件系统及文件类型。
 <font size="7" ><b>Linux文件系统及文件类型</b></font>
 </center>
 ### 一、Linux的文件系统。
-- 根文件系统(rootfs)：
+- 根文件系统(rootfs)：          
 &emsp;&emsp;&emsp;root filesystem       
 
 - LSB，FHS：(Filesystem Heirache Standard)   
@@ -42,7 +42,7 @@ description: 第四堂课Linux文件系统及文件类型。
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;share：结构化文件存放位置，比如doc，man，背景图片等；     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;local：取代了opt，第三方应用程序的安装位置     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;包含bin，sbin，lib，lib64，share，etc等（完全的独立王国）       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;var：variable data files，包含：
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;var：variable data files，包含：        
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;cache：应用程序缓存数据；    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;lib：应用程序状态信息数据；   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;local：专用于为/usr/local下的应用程序存储可变数据；      
