@@ -89,7 +89,7 @@ description: 第五堂课bash的基础特性及基础命令
 &emsp;&emsp;&emsp;access time(atime)：最近一次访问时间(读取文件内容或者执行可执行文件)      
 &emsp;&emsp;&emsp;modify time(mtime)：最近一次修改时间(改变文件内容或者数据)      
 &emsp;&emsp;&emsp;change time(ctime)：最近一次改变时间(元数据发生改变)       
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**注意，atime和mtime都是元数据**              
+&emsp;&emsp;&emsp;**注意，atime和mtime都是元数据**              
 - touch：可修改三个时间戳的前两个(也可创建文件)       
 &emsp;&emsp;&emsp;touch [OPTIONS]...FILE...     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－a：only atime     
