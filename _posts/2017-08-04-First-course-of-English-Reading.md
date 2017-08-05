@@ -24,7 +24,7 @@ description: 英语阅读第一讲
 **注意主谓一致**      
 
 ### 三、理解句子间的逻辑关系：   
-- 并列：同意重复：
+- 并列：同义重复：      
 &emsp;&emsp;&emsp;and，meanwhile，as well as....      
 - 转折：反义重复：    
 &emsp;&emsp;&emsp;but，however，**now**...     
