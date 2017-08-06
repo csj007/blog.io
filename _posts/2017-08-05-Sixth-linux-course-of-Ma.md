@@ -17,8 +17,8 @@ description: 第六堂课文件管理、命名别名和glob
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SRC是文件：     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果目标不存在，新建DEST并将SRC中内容覆盖至DEST中             
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果目标存在：      
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果DEST是文件，将SRC中的内容覆盖至DEST中（此时建议用户使用－i选项）                
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果DEST是目录，在其下新建与源文件同名的文件，并将SRC中的内容填充至新文件中。            
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果DEST是文件，将SRC中的内容覆盖至DEST中（建议使用－i选项）                
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果DEST是目录，新建之并将SRC中的内容填充其中。            
 &emsp;&emsp;&emsp;cp SRC... DEST      
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SRC...：多个文件           
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;DEST必须存在且必须为目录，否则均会出错            
@@ -54,7 +54,7 @@ description: 第六堂课文件管理、命名别名和glob
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果DEST不存在，新建此目录并将源移动          
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果DEST存在，则必须为目录并将源移入    
 &emsp;&emsp;&emsp;如果SRC是多个文件或者目录，DEST必须存在且必须为目录，否则均会出错       
-&emsp;&emsp;&emsp;常用选项：
+&emsp;&emsp;&emsp;常用选项：         
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－i：交互式     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;－f：force                
 - 删除命令rm：remove              
@@ -87,7 +87,7 @@ description: 第六堂课文件管理、命名别名和glob
 &emsp;&emsp;&emsp;通配符：＊，？，［］                
 &emsp;&emsp;&emsp;＊：       
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;任意长度的任意字符         
-&emsp;&emsp;&emsp;&en  sp;?：    
+&emsp;&emsp;&emsp;&ensp;?：    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;任意单个字符      
 &emsp;&emsp;&emsp;［］：    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;匹配指定范围内的任意单个字符     
