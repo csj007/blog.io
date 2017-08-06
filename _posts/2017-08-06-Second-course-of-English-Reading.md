@@ -35,7 +35,19 @@ description: 英语阅读第二讲
 - 干扰选项：      
 &emsp;&emsp;&emsp;就事论事，就例子本身的一些描述不成为正确答案                  
 
-### 三、英语阅读的核心原则：   
+### 三、猜词题：          
+- 标志：“&emsp;”（哪一段哪一行，或者划线）     
+- 方法：        
+&emsp;&emsp;&emsp;(1)寻找上下文逻辑关系：      
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;逻辑关系：        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;相同：没有相反的标志词，就是相同关系        
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;相反：but、yet，however，although，though，in fact，now，fortunately，unfortunately       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;上下文：     
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果句子很简单，则从前后句找    
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果句子很复杂，里面有逻辑关联词，则就在本句找    
+&emsp;&emsp;&emsp;(2)如果要猜测的是一个简单词，则排除其常见含义     
+
+### 四、英语阅读的核心原则：   
 - 细节服从主旨：                           
 - 优先选择和中心思想最相关的选项：       
 
