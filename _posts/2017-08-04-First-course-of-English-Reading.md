@@ -1,6 +1,6 @@
 ---
 layout: post
-title: English Reading
+title: Frist Lesson of English Reading
 date: 2017-08-04
 categories: blog
 tags: [Reading]
@@ -32,8 +32,10 @@ description: 英语阅读第一讲
 ### 四、选项特点：   
 - 干扰选项的特点：       
 &emsp;&emsp;&emsp;偷换概念        
-&emsp;&emsp;&emsp;肤浅理解字面意思        
-&emsp;&emsp;&emsp;比较级的迷惑                     
+&emsp;&emsp;&emsp;肤浅理解字面意思                             
 - 正确选项的特点：      
 &emsp;&emsp;&emsp;文中内容的同义改写     
 &emsp;&emsp;&emsp;文中内容的抽象概括      
+
+
+#### 本讲阅读原则总结：先题后文     
