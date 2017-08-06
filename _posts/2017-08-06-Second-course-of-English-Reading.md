@@ -41,7 +41,7 @@ description: 英语阅读第二讲
 &emsp;&emsp;&emsp;(1)寻找上下文逻辑关系：      
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;逻辑关系：        
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;相同：没有相反的标志词，就是相同关系        
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;相反：but、yet，however，although，though，in fact，now，fortunately，unfortunately       
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;相反：but、yet，however，although，in fact，now，(un)fortunately       
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;上下文：     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果句子很简单，则从前后句找    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;如果句子很复杂，里面有逻辑关联词，则就在本句找    
