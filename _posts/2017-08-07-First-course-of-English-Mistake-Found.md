@@ -33,7 +33,7 @@ description: 英语改错第一讲
 - 单复数互改     
 - 名词之前看限定，限定决定其变化       
 - 所有格出错（单数先'后s，复数先s后'）
-- 高频错词总结：
+- 高频错词总结：       
 &emsp;&emsp;&emsp;work，job     
 &emsp;&emsp;&emsp;time，hour，year，month，day     
 &emsp;&emsp;&emsp;student，classmate，friend     
