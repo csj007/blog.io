@@ -7,7 +7,7 @@ tags: [Reading]
 description: 英语阅读第三讲
 
 ---
-
+<table><tr><td bgcolor=#FFF8DC>
 <center>
 <font size="7" ><b>英语阅读第三讲</b></font>
 </center>
@@ -36,7 +36,7 @@ description: 英语阅读第三讲
 
 #### 原则总结：干扰选项出现，一定不是正确答案   
 
-
+</td></tr></table>
 
 
 
