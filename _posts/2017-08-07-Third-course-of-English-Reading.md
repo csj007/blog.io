@@ -34,9 +34,7 @@ description: 英语阅读第三讲
 &emsp;&emsp;4. 情态动词后面的内容：should，would，must          
 
 
-#### 原则总结：干扰选项出现，一定不是正确答案   
-
-</td></tr></table>
+#### 原则总结：干扰选项出现，一定不是正确答案</td></tr></table>
 
 
 
