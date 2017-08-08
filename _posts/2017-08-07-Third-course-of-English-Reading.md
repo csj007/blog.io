@@ -12,7 +12,7 @@ description: 英语阅读第三讲
 <font size="7" ><b>英语阅读第三讲</b></font>
 </center>
 ### 一、作者态度题：      
-- 标志：
+- 标志：        
 &emsp;&emsp;attitude，consider，regard，deem，选项用词                    
 - 常用态度词：      
 &emsp;&emsp;正面：                 

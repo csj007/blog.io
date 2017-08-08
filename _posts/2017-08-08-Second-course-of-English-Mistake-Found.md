@@ -22,7 +22,7 @@ description: 英语改错第二讲
 7. 介词＋doing     
 
 ### 二、形容词副词突破点   
-- 形容词和副词的混用：
+- 形容词和副词的混用：         
 &emsp;&emsp;adj位于系动名前，adv位于动词前后              
 - 对称结构出现       
 &emsp;&emsp;than 与 er或者more搭配，-est 或者most与the、an、a搭配      
