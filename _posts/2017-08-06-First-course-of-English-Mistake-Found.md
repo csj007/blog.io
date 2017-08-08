@@ -57,19 +57,4 @@ description: 英语改错第一讲
 - 情态：能力、情绪和推测        
 &emsp;&emsp;&emsp;情态动词后面加V原       
 - 多词少词：be          
-&emsp;&emsp;&emsp;介词前，助动词之后             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+&emsp;&emsp;&emsp;介词前，助动词之后
