@@ -10,7 +10,6 @@ description: 英语改错练习题答案
 <center>
 <font size="7" ><b>英语改错参考答案</b></font>
 </center>
-<table><tr><td bgcolor=#7FFFD4>
 #### 一、陕西：     
 - 去掉in
 - anything 改为something
@@ -22,7 +21,6 @@ description: 英语改错练习题答案
 - a改为the
 - just后加to
 - enjoy改为enjoying
-</td></tr></table>
 
 #### 二、四川
 - 加上to
