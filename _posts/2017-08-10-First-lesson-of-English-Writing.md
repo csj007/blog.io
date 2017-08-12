@@ -30,7 +30,7 @@ description: 英语作文第一讲
 - 承上启下：       
 &emsp;&emsp;what's more        
 &emsp;&emsp;moreover      
-&emsp;&emsp;at the same time     
+&emsp;&emsp;at the same time         
 &emsp;&emsp;meanwhile        
 &emsp;&emsp;then        
 &emsp;&emsp;besides           
@@ -40,10 +40,10 @@ description: 英语作文第一讲
 &emsp;&emsp;on the other hand      
 &emsp;&emsp;on the contrary         
 - 议论说明段落中常用过渡词：       
-&emsp;&emsp;分两点拓展：
+&emsp;&emsp;分两点拓展：         
 &emsp;&emsp;&emsp;&emsp;&emsp;for one thing，for another       
 &emsp;&emsp;&emsp;&emsp;&emsp;on the one hand，on the other hand        
-&emsp;&emsp;分三点拓展：
+&emsp;&emsp;分三点拓展：        
 &emsp;&emsp;&emsp;&emsp;&emsp;first and foremost，additionally，last but not least        
 &emsp;&emsp;分四点拓展：       
 &emsp;&emsp;&emsp;&emsp;&emsp;to begin with，moreover，what's more，finally        
@@ -68,3 +68,4 @@ description: 英语作文第一讲
 - 遣词造句(先句型再词汇)
 - 过渡词(一句一个)
 - 内容(全面、简单)
+![](../img/writing.png)
