@@ -68,4 +68,4 @@ description: 英语作文第一讲
 - 遣词造句(先句型再词汇)
 - 过渡词(一句一个)
 - 内容(全面、简单)
-![](../../img/writing.png)
+![](https://github.com/csj007/csj007.github.io/blob/master/img/writing.png)
